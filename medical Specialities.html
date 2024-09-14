@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Medical Specialities - Doctors Hospital</title>
+    <link
+      rel="shortcut icon"
+      href="images/logo-tital.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="http:/site-assets.fontawesome.com/releases/v6.4.2/css/all.css"
+    />
+    <script src="bootstrap.bundle.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div
+        class="container-fluid ms-0 m-4 shadow px-5 py-3 mb-3 bg-body top-container-cstm"
+      >
+        <div class="row">
+          <div class="col-lg-8 col-md-12 top-info">
+            <div>
+              <a
+                href="#"
+                class="text-decoration-none top-text-cstm px-3 ps-0 btn-srch"
+                ><i class="fa-light fa-clock cstm-icn me-1"></i>&nbsp; Hospital
+                Timing 24 X 7</a
+              >
+            </div>
+            <div>
+              <a
+                href="#"
+                class="text-decoration-none top-text-cstm px-3 btn-srch"
+                ><i class="fa-light fa-phone cstm-icn me-1"></i>&nbsp; 042 111
+                223 377</a
+              >
+            </div>
+            <div>
+              <a
+                href="#"
+                class="text-decoration-none top-text-cstm px-3 btn-srch"
+                ><i class="fa-light fa-envelope cstm-icn me-1"></i>&nbsp;
+                info@dhmc.com.pk</a
+              >
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12 d-flex justify-content-end">
+            <a href="#" class="text-decoration-none top-text-cstm btn-srch">
+              <button class="cstm-btn px-3 py-2 me-3" type="button">
+                Book your Appointment
+              </button></a
+            >
+            &nbsp;
+            <i
+              class="fa-light fa-magnifying-glass srch-cstm ps-1 pb-0 mb-0"
+            ></i>
+          </div>
+        </div>
+      </div>
+      <div class="srch-icon">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+      <div class="navBar pt-md-3 mx-md-0 mx-sm-0 px-md-0 px-sm-0">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container-fluid m-4 mt-0 pt-0 logo-img-cstm">
+            <img src="images/logo.png" alt="" class="img-fluid col-md-3" />
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-5">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="index.html"
+                    style="color: #8098c9"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <div class="dropdown">
+                    <button
+                      class="dropdown-toggle p-2 nav-drop-cstm"
+                      type="button"
+                      id="dropdownMenuButton1"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      About Us
+                    </button>
+                    <ul
+                      class="dropdown-menu bg-light dropdown-menu-cstm"
+                      aria-labelledby="dropdownMenuButton1"
+                    >
+                      <li>
+                        <a class="dropdown-item py-2 ps-4 pe-5" href="#"
+                          >Who are We</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item py-2 ps-4 pe-5" href="#"
+                          >Mission, Vision, Values</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item py-2 ps-4 pe-5" href="CEO's Message.html"
+                          >CEO Message</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item py-2 ps-4 pe-5" href="chairman-msg.html"
+                          >Chairman Message</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item py-2 ps-4 pe-5" href="#"
+                          >Executive Team</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item py-2 ps-4 pe-5" href="#"
+                          >DHMC Facilities</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item py-2 ps-4 pe-5" href="#"
+                          >Newsletter</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <div class="dropdown">
+                    <button
+                      class="dropdown-toggle p-2 nav-drop-cstm"
+                      type="button"
+                      id="dropdownMenuButton1"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Care & Services
+                    </button>
+                    <ul
+                      class="dropdown-menu bg-light dropdown-menu-cstm"
+                      aria-labelledby="dropdownMenuButton1"
+                    >
+                      <li>
+                        <a class="dropdown-item py-2 ps-4 pe-5" href="#"
+                          >Find a Doctor</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item py-2 ps-4 pe-5" href="medical Specialities.html"
+                          >Medical Specialities</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item py-2 ps-4 pe-5" href="#"
+                          >Surgical Specialities</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item py-2 ps-4 pe-5" href="#"
+                          >Diagnostics</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item py-2 ps-4 pe-5" href="#"
+                          >Hospital Services</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <div class="dropdown">
+                    <button
+                      class="dropdown-toggle p-2 nav-drop-cstm"
+                      type="button"
+                      id="dropdownMenuButton1"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Patients & Families
+                    </button>
+                    <ul
+                      class="dropdown-menu bg-light dropdown-menu-cstm"
+                      aria-labelledby="dropdownMenuButton1"
+                    >
+                      <li>
+                        <a class="dropdown-item py-2 ps-4 pe-5" href="#"
+                          >Patient Rights & Responsibilities</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item py-2 ps-4 pe-5" href="visitor guide.html"
+                          >Visitor Guide</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item py-2 ps-4 pe-5" href="#"
+                          >Registered Insurance Panels</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item py-2 ps-4 pe-5" href="#"
+                          >Patient Support</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item py-2 ps-4 pe-5" href="#"
+                          >Health & Wellness</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <div class="dropdown">
+                    <button
+                      class="dropdown-toggle p-2 nav-drop-cstm"
+                      type="button"
+                      id="dropdownMenuButton1"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Media Center
+                    </button>
+                    <ul
+                      class="dropdown-menu bg-light dropdown-menu-cstm"
+                      aria-labelledby="dropdownMenuButton1"
+                    >
+                      <li>
+                        <a class="dropdown-item py-2 ps-4 pe-5" href="#"
+                          >News and Events</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item py-2 ps-4 pe-5" href="#"
+                          >DHMC YouTube Channel</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Career.html">Careers</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <section>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 ceo-hd p-5">
+            <div class="ceo-hd-txt-m py-5">Medical Specialities</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-xl">
+        <div class="row">
+          <div class="col-12 mt-5">
+            <div class="mdcl-hd-txt py-2">The Right Care at the Right Time</div>
+            <div class="mdcl-txt py-2">Medical specialties at Doctors Hospital cover a wide range of health dimensions. Our many doctors and their teams practice medicine in different specialties & subspecialties like cardiology, spine & orthopedics, cancer, to endocrinology.</div>
+            <div class="mdcl-txt py-2">We offer the services of nationally recognized experts that treat from the run-of-the-mill disease to medically complex patients. Each patient receives care from a team of expert doctors, nurses, therapists, and care coordinators so that they can get well with ease and comfort. Here are some of the leading medical specialties offered at Doctors Hospital & Medical Centre.</div>
+        </div>
+        </div>
+      </div>
+
+
+      <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12 card-srvs py-4 px-3">
+                <img src="medical Specialities/png-dhmc-icons-website-10.png" alt="" />
+                <div class="our-srvs-main-txt my-1">
+                  <a href="#">Emergency Care</a>
+                </div>
+                <div class="our-srvs-txt my-1">
+                    Immediate Emergency Medical Treatment
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-4 col-sm-12 card-srvs py-4 px-3">
+                <img src="medical Specialities/png-dhmc-icons-website-01.png" alt="" />
+                <div class="our-srvs-main-txt my-1">
+                  <a href="#">Anesthesia</a>
+                </div>
+                <div class="our-srvs-txt my-1">
+                    Safe and Painless Procedures
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-4 col-sm-12 card-srvs py-4 px-3">
+                <img src="medical Specialities/png-dhmc-icons-website-07.png" alt="" />
+                <div class="our-srvs-main-txt my-1">
+                  <a href="#">Dermatology</a>
+                </div>
+                <div class="our-srvs-txt my-1">
+                    Holistic Skin Health Treatment
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-4 col-sm-12 card-srvs py-4 px-3">
+                <img src="medical Specialities/png-dhmc-icons-website-04.png" alt="" />
+                <div class="our-srvs-main-txt my-1">
+                  <a href="#">Cardiology</a>
+                </div>
+                <div class="our-srvs-txt my-1">
+                    Advanced Heart Disease Treatment
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-4 col-sm-12 card-srvs py-4 px-3">
+                <img src="medical Specialities/png-dhmc-icons-website-13.png" alt="" />
+                <div class="our-srvs-main-txt my-1">
+                  <a href="#">Infectious Disease & Critical Care</a>
+                </div>
+                <div class="our-srvs-txt my-1">
+                    Effective Life-Threatening Illness Management
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-4 col-sm-12 card-srvs py-4 px-3">
+                <img src="medical Specialities/png-dhmc-icons-website-16.png" alt="" />
+                <div class="our-srvs-main-txt my-1">
+                  <a href="#">Interventional Radiology</a>
+                </div>
+                <div class="our-srvs-txt my-1">
+                    Advanced Minimally-Invasive Procedures
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-4 col-sm-12 card-srvs py-4 px-3">
+                <img src="medical Specialities/png-dhmc-icons-website-19.png" alt="" />
+                <div class="our-srvs-main-txt my-1">
+                  <a href="#">Neurology</a>
+                </div>
+                <div class="our-srvs-txt my-1">
+                    Comprehensive Nervous System Disorders Treatment
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-4 col-sm-12 card-srvs py-4 px-3">
+                <img src="medical Specialities/png-dhmc-icons-website-22.png" alt="" />
+                <div class="our-srvs-main-txt my-1">
+                  <a href="#">Physiotherapy</a>
+                </div>
+                <div class="our-srvs-txt my-1">
+                    Targeted Physical Rehabilitation Treatment
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-4 col-sm-12 card-srvs py-4 px-3">
+                <img src="medical Specialities/png-dhmc-icons-website-02.png" alt="" />
+                <div class="our-srvs-main-txt my-1">
+                  <a href="#">Audiology</a>
+                </div>
+                <div class="our-srvs-txt my-1">
+                    Sophisticated Hearing Loss Management
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-4 col-sm-12 card-srvs py-4 px-3">
+                <img src="medical Specialities/png-dhmc-icons-website-05.png" alt="" />
+                <div class="our-srvs-main-txt my-1">
+                  <a href="#">Clinical Hematology</a>
+                </div>
+                <div class="our-srvs-txt my-1">
+                    Thorough Blood Disorders Treatment
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-4 col-sm-12 card-srvs py-4 px-3">
+                <img src="medical Specialities/png-dhmc-icons-website-08.png" alt="" />
+                <div class="our-srvs-main-txt my-1">
+                  <a href="#">Diabetes & Endocrinology</a>
+                </div>
+                <div class="our-srvs-txt my-1">
+                    Comprehensive Hormonal Imbalance Management and Treatment
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-4 col-sm-12 card-srvs py-4 px-3">
+                <img src="medical Specialities/png-dhmc-icons-website-11.png" alt="" />
+                <div class="our-srvs-main-txt my-1">
+                  <a href="#">Gastroenterology</a>
+                </div>
+                <div class="our-srvs-txt my-1">
+                    
+Complete Digestive System Disorders Treatment
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-4 col-sm-12 card-srvs py-4 px-3">
+                <img src="medical Specialities/png-dhmc-icons-website-14.png" alt="" />
+                <div class="our-srvs-main-txt my-1">
+                  <a href="#">Internal Medicine</a>
+                </div>
+                <div class="our-srvs-txt my-1">
+                    
+Comprehensive Non-Surgical Medical Treatment
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-4 col-sm-12 card-srvs py-4 px-3">
+                <img src="medical Specialities/png-dhmc-icons-website-17.png" alt="" />
+                <div class="our-srvs-main-txt my-1">
+                  <a href="#">Medical Oncology</a>
+                </div>
+                <div class="our-srvs-txt my-1">
+                    
+Advanced Cancer Treatment Management
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-4 col-sm-12 card-srvs py-4 px-3">
+                <img src="medical Specialities/png-dhmc-icons-website-23.png" alt="" />
+                <div class="our-srvs-main-txt my-1">
+                  <a href="#">Psychiatry</a>
+                </div>
+                <div class="our-srvs-txt my-1">
+                    
+                    Personalized Mental Health Treatment
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-4 col-sm-12 card-srvs py-4 px-3">
+                <img src="medical Specialities/png-dhmc-icons-website-26.png" alt="" />
+                <div class="our-srvs-main-txt my-1">
+                  <a href="#"> Rheumatology</a>
+                </div>
+                <div class="our-srvs-txt my-1">
+                   
+Comprehensive Joint and Connective Tissue Disorders Treatment
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-4 col-sm-12 card-srvs py-4 px-3">
+                <img src="medical Specialities/png-dhmc-icons-website-06.png" alt="" />
+                <div class="our-srvs-main-txt my-1">
+                  <a href="#"> Clinical Nutrition</a>
+                </div>
+                <div class="our-srvs-txt my-1">
+                   
+Tailored Dietary and Nutritional Management
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-4 col-sm-12 card-srvs py-4 px-3">
+                <img src="medical Specialities/png-dhmc-icons-website-12.png" alt="" />
+                <div class="our-srvs-main-txt my-1">
+                  <a href="#"> Oncology</a>
+                </div>
+                <div class="our-srvs-txt my-1">
+                   
+                    Comprehensive Cancer Diagnosis and Treatment
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-4 col-sm-12 card-srvs py-4 px-3">
+                <img src="medical Specialities/png-dhmc-icons-website-15-400x400.png" alt="" />
+                <div class="our-srvs-main-txt my-1">
+                  <a href="#"> Interventional Pain Management</a>
+                </div>
+                <div class="our-srvs-txt my-1">
+                   
+                    Complete Chronic Pain Treatment
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-4 col-sm-12 card-srvs py-4 px-3">
+                <img src="medical Specialities/png-dhmc-icons-website-18-400x400.png" alt="" />
+                <div class="our-srvs-main-txt my-1">
+                  <a href="#"> Nephrology</a>
+                </div>
+                <div class="our-srvs-txt my-1">
+                   
+                    Thorough Kidney Disease Management
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-4 col-sm-12 card-srvs py-4 px-3">
+                <img src="medical Specialities/png-dhmc-icons-website-21-400x400.png" alt="" />
+                <div class="our-srvs-main-txt my-1">
+                  <a href="#"> Pediatrics</a>
+                </div>
+                <div class="our-srvs-txt my-1">
+                   
+                    Comprehensive Child Health Care
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-4 col-sm-12 card-srvs py-4 px-3">
+                <img src="medical Specialities/png-dhmc-icons-website-24-400x400.png" alt="" />
+                <div class="our-srvs-main-txt my-1">
+                  <a href="#"> Psychology</a>
+                </div>
+                <div class="our-srvs-txt my-1">
+                   
+                    Inclusive Behavioral and Mental Health Treatment
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-4 col-sm-12 card-srvs py-4 px-3">
+                <img src="medical Specialities/png-dhmc-icons-website-27-400x400.png" alt="" />
+                <div class="our-srvs-main-txt my-1">
+                  <a href="#">  Speech Therapy</a>
+                </div>
+                <div class="our-srvs-txt my-1">
+                    Specialized Speech and Language Disorders Management
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-4 col-sm-12 card-srvs py-4 px-3">
+                <img src="medical Specialities/png-dhmc-icons-website-25-400x400.png" alt="" />
+                <div class="our-srvs-main-txt my-1">
+                  <a href="#">  Pulmonology</a>
+                </div>
+                <div class="our-srvs-txt my-1">
+                    Comprehensive Lung and Respiratory System Disorders Treatment
+                </div>
+              </div>
+        </div>
+      </div>
+      
+
+      <div class="container-xl shadow-lg mt-5">
+        <div class="row">
+            <div class="col-12 col-lg-6 col-md-6 col-sm-6 my-5 ms-5">
+                <div class="frty">40+</div>
+                <div class="frty-txt">Medical Specialities & Sub-Specialties Offered</div>
+            </div>
+            <div class="col-12 col-lg-4 col-md-4 col-sm-4 img-fluid"><img src="medical Specialities/medical-speciality-400x323.png" alt=""></div>
+        </div>
+      </div>
+
+
+      <div class="container-fluid mt-4">
+        <div class="row">
+          <div class="col-12 ceo-hd p-5">
+            <div class="spclist-txt-hd pt-5">Find a Specialist</div>
+            <div class="spclist-txt">At Doctors Hospital & Medical Center</div>
+            <div class="spclist-desc">Search our directory of Doctors Hospital & Medical Center doctors & surgeons</div>
+            <button type="button" class="spclist-btn py-2 px-4 my-5">Explore</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <footer id="footer">
+        <div style="display: block" class="pt-4 ps-4">
+          <img src="images/logo.png" alt="" style="width: 260px; height: auto" />
+        </div>
+        <div class="container-fluid mt-3">
+          <div class="row">
+            <div class="col-lg-3 col-md-12 col-sm-12">
+              <div class="footer-hd mb-4 mt-4">About Us</div>
+              <div class="footer-txt">
+                Founded in 2000, Doctors Hospital is an internationally renowned
+                250-bed hospital located in Lahore, Pakistan. For more than 18
+                years we have been fulfilling the medical needs of our community
+                with our staff of American & British Board Certified specialists.
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="footer-hd mb-4 mt-4">Our Services</div>
+              <div class="footer-txt">
+                <ul>
+                  <li>Primary Care</li>
+                  <li>Surgical Services</li>
+                  <li>Women’s Health</li>
+                  <li>Heart & Vascular Services</li>
+                  <li>Gastrointestinal Health</li>
+                  <li>Spine & Ortho</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="footer-hd mb-4 mt-4">Contact Us</div>
+              <div class="footer-txt">
+                To make an appointment at Doctors Hospital please use the contact
+                details given below.
+              </div>
+              <div class="footer-txt py-3">
+                <i class="fa-solid fa-phone scl-link"></i> 042 111 223 377
+  
+                <div class="social-links">
+                  <ul>
+                    <li>
+                      <a href="#"><i class="fa-brands fa-facebook-f scl-link"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa-brands fa-linkedin-in scl-link"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa-brands fa-twitter scl-link"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa-brands fa-instagram scl-link"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-12 col-sm-12">
+              <div class="footer-hd mb-4 mt-4">Quick Links</div>
+              <div class="footer-txt">
+                <ul>
+                  <li>Visit Our Blog</li>
+                  <li>COVID-19 Services</li>
+                  <li>Diagnostics Lab</li>
+                  <li>Newsletter</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="mt-5 pt-4 mb-2 copyrit">Copyright 2023 @Doctors Hospital Pakistan | Doctors Hospital Labs Pakistan. All Rights Reserved</div>
+      </footer>
+    </body>
+  </html>
+  

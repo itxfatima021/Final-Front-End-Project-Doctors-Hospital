@@ -1,0 +1,866 @@
+/* *********************************************************
+*********************************************************
+
+           CUSTOM CSS
+
+*********************************************************
+********************************************************* */
+
+*,
+*::after,
+*::before{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --primary-color: #17449e;
+    --primary-font: "Montserrat", sans-serif;
+
+}
+.cstm-btn{
+    background-color: #17449e;
+    border: none;
+    border-radius: 30px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 12px;
+    font-family: var(--primary-font);
+    letter-spacing: 1px;
+    text-align: start;
+}
+.top-text-cstm{
+    font-family: var(--primary-font);
+    font-size: 14px;
+    line-height: 25.5px;
+    text-align: start;
+    color: var(--primary-color);
+}
+.srch-cstm{
+    font-size: 29px;
+    color: #17449e;
+}
+.btn-srch{
+    display: flex;
+    align-items: center;
+}
+.cstm-icn{
+    font-size: 19px;
+    line-height: 19px;
+}
+.top-info{
+    display: flex;
+    align-items: center;
+}
+.srch-icon{
+    position: absolute ;
+    top: 40px;
+    right: 7rem;
+    display: none;
+    z-index: 10;
+    font-size: 29px;
+    color: #17449e;
+}
+@media screen and (max-width:900px) {
+    .srch-icon{
+        top: 37px;
+    }
+}
+@media screen and (max-width:800px) {
+    .srch-icon{
+        top: 34px;
+    }
+}
+@media screen and (max-width:767px) {
+    .srch-icon{
+        top: 14px;
+    }
+}
+@media screen and (max-width:576px) {
+   .navbar-toggler-icon{
+    font-size: 16px;
+    border: none;
+   }
+   .srch-icon{
+    font-size: 23px;
+    right: 6.3rem;
+}
+.navBar .navbar .logo-img-cstm img {
+ margin-left: 0;
+ padding-left: 0;
+}
+}
+
+
+
+/* *********************************************************
+*********************************************************
+
+           NAVBAR
+
+*********************************************************
+********************************************************* */
+.nav-drop-cstm{
+    border: none;
+    text-decoration: none;
+    background: transparent;
+}
+.dropdown-menu-cstm,
+.dropdown-menu-cstm li,
+.dropdown-menu-cstm li a{
+    border: none;
+    background-color: #f4f4f4;
+    color: #7a7a7a;
+    font-size: 14px;
+    line-height: 23.8px;
+}
+.dropdown-menu-cstm li a:hover{
+    background-color: #f4f4f4 !important;
+    color: var(--primary-color);
+}
+.nav-item a,
+.nav-item .dropdown button{
+    color: #8098c9;
+    line-height: 23.8px;
+    font-size: 14px;
+}
+.nav-item .nav-link:active{
+    color: var(--primary-color) !important;
+    line-height: 23.8px !important;
+    font-size: 14px !important;
+    box-sizing: border-box;
+}
+.nav-item a:hover,
+.nav-item .dropdown button:hover{
+    box-sizing: border-box !important;
+    color: var(--primary-color) !important;
+    border-bottom: 3px solid #8d8989a1;
+    border-radius: 2px;
+}
+/* *********************************************************
+*********************************************************
+
+           EMERGENCY SERVICES SECTION
+
+*********************************************************
+********************************************************* */
+
+.emergency-srvcs{
+    background-color: #2254ad;
+    border-radius: 4px;
+    position: relative;
+    bottom: 45px;
+}
+.emr-srvs-heading{
+    font-size: 22px;
+    line-height: 26.4px;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-weight: 550;
+}
+.emergency-srvcs-call{
+    font-size: 21px;
+    line-height: 25.2px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+}
+.emergency-srvcs-txt{
+    color: #abcbff;
+    font-size: 16px;
+    line-height: 27.2px;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* *********************************************************
+*********************************************************
+
+           OUR SERVICES SECTION
+
+*********************************************************
+********************************************************* */
+
+.srvs-h{
+    font-size: 40px;
+    line-height: 70px;
+    color: #1c4ca5;
+    font-family: var(--primary-font);
+    font-weight: bold;
+}
+.srvs-txt{
+    font-size: 16px;
+    line-height: 27.2px;
+    color: #757575;
+    font-family: var(--primary-font);
+}
+.our-srvs-main-txt a{
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 31px;
+    color: var(--primary-color);
+    font-family: var(--primary-font);
+    font-weight: 600;
+    text-align: center;
+}
+.card-srvs{
+    text-align: center;
+}
+.card-srvs img{
+    height: 155px;
+    width: auto;
+}
+.our-srvs-txt{
+    font-size: 15px;
+    line-height: 25.5px;
+    color: #757575;
+    font-family: var(--primary-font);
+}
+@media screen and (max-width:767px) {
+    .our-srvs-main-txt a{
+        font-size: 18px;
+    }
+    .card-srvs img{
+        height: 125px;
+        width: auto;
+    }
+}
+
+
+/* *********************************************************
+*********************************************************
+
+           COUNTER SECTION
+
+*********************************************************
+********************************************************* */
+
+.counter-section{
+    background: url(images/counter-bg.webp) no-repeat center;
+    background-size: cover;   
+    align-items: center;
+    text-align: center;
+    border-radius: 4px;
+    position: relative;
+    top: 45px;
+}
+.counter-main-txt{
+    font-size: 32px;
+    line-height: 39px;
+    color: #ffffff;
+    font-family: var(--primary-font);
+    font-weight: bold;
+    text-align: center;
+}
+.counter-txt{
+    font-size: 16px;
+    line-height: 27.2px;
+    color: #a9d0ff;
+    font-family: var(--primary-font);
+}
+.head-txt{
+    font-size: 36px;
+    font-family: var(--primary-font);
+    line-height: 48px;
+    color: #1c4ca5;
+    font-weight: bold;
+}
+.desc-txt{
+    font-size: 16px;
+    line-height: 28.9px;
+    color: #6b9cff;
+    text-transform: uppercase;
+    font-family: var(--primary-font);
+}
+.about-dhmc-hd-txt{
+    font-size: 19px;
+    line-height: 29.45px;
+    font-family: var(--primary-font);
+    color: #1c4ca5;
+    font-weight: 600;
+}
+.about-dhmc-txt{
+    color: #797979;
+    font-size: 16px;
+    line-height: 27.2px;
+    font-family: var(--primary-font);
+}
+
+.health-head{
+    font-family: var(--primary-font);
+    font-size: 40px;
+    line-height: 48px;
+    color: #1c4ca5;
+    font-weight: bold;
+}
+.health-desc{
+    font-size: 26px;
+    line-height: 40.3px;
+    color: #1c4ca5;
+    font-family: var(--primary-font);
+    font-weight: 550;
+}
+.health-txt{
+    font-size: 16px;
+    line-height: 27.2px;
+    color: #555555;
+    font-family: var(--primary-font);
+}
+
+
+
+.legcy-innovtn{
+    background-color: #113478;
+}
+.srgcl-fclitis{
+    background: url(images/Bg-Column.webp) no-repeat center;
+    background-size: cover;
+}
+.ntnlty-staff{
+    background-color: #17449f;
+}
+.innovation-sctn{
+    text-align: center;
+    align-items: center;
+}
+.innovation-sctn img{
+    width: 6rem;
+    height: auto;
+}
+.invtn-hd-txt{
+    font-size: 21px;
+    line-height: 32.55px;
+    font-family: var(--primary-font);
+    font-weight: bold;
+    color: #ffffff;
+}
+.invtn-txt{
+    font-size: 16px;
+    line-height: 27.2px;
+    font-family: var(--primary-font);
+    color: #ccd7ec;
+}
+
+
+/* *********************************************************
+*********************************************************
+
+           COUNTER SECTION
+
+*********************************************************
+********************************************************* */
+
+.news-hd{
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: var(--primary-font);
+}
+.newsletter{
+    background-color: #2056ae;
+}
+.news-txt{
+    font-size: 16px;
+    line-height: 27.2px;
+    color: #ffffff;
+    font-family: var(--primary-font);
+}
+.news-inp{
+    display: block;
+    margin-top: 100px;
+    width: 90%;
+    height: 4rem;
+    border: none;
+}
+.new-btn{
+    text-decoration: none;
+    border: none;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 22.1px;
+    background: #4d93e9;
+}
+.explr-btn{
+    margin-top: 100px;
+}
+
+/* *********************************************************
+*********************************************************
+
+              FOOTER SECTION
+
+*********************************************************
+********************************************************* */
+
+.footer-hd{
+    font-size: 24px;
+    line-height: 28.8px;
+    color: #020202;
+    font-family: var(--primary-font);
+    font-weight: bold;
+}
+.footer-txt,
+.footer-txt ul li{
+    color: #8b8b8b;
+    font-size: 16px;
+    line-height: 27.2px;
+    font-family: var(--primary-font);
+}
+.footer-txt ul li{
+    list-style: none;
+
+}
+.footer-txt .social-links ul li a i,
+.footer-txt i{
+    color: #17449e;
+    font-size: 17px;
+    line-height: 17px;
+}
+.social-links ul li a {
+    text-decoration: none;
+}
+.social-links ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    padding-left: 0;
+}
+.scl-link{
+    color: #17449e;
+}
+.copyrit{
+    font-size: 12px;
+    line-height: 20.4px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: var(--primary-font);
+    color: #afafaf;
+    letter-spacing: 1px;
+}
+
+/* *********************************************************
+*********************************************************
+
+           CAREER'S SECTION
+
+*********************************************************
+********************************************************* */
+
+.career-txt{
+    font-size: 47px;
+    line-height: 56.4px;
+    text-align: center;
+    color: #ffffff;
+    font-family: var(--primary-font);
+    font-weight: bold;
+}
+.career-hd-txt{
+    font-size: 32px;
+    line-height: 38.4px;
+    text-align: left;
+    letter-spacing: 1px;
+    color: #1c4ca5;
+    font-family: var(--primary-font);
+    font-weight: 600;
+}
+.career-desc-txt{
+    font-size: 14px;
+    line-height: 27.2px;
+    text-align: left;
+    color: #555555;
+    font-family: var(--primary-font);
+}
+.position-col{
+    background-color: #458ee8;
+    
+}
+.title{
+    font-size: 18px;
+    line-height: 25.6px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #ffffff;
+    font-family: var(--primary-font);
+    font-weight: bold;
+}
+.department{
+    font-size: 15px;
+    line-height: 21.6px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #ffffff;
+    font-family: var(--primary-font);
+}
+
+
+.visitor-hd{
+    color: #1c4ca5;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-family: var(--primary-font);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.career-desc-txt-visitor,
+.career-desc-txt-visitor ul li{
+    font-size: 14px;
+    line-height: 27.2px;
+    text-align: left;
+    color: #555555;
+    font-family: var(--primary-font);
+}
+.visitor-hd-nxt{
+    color: #1c4ca5;
+    font-size: 32px;
+    line-height: 38.4px;
+    text-align: left;
+    letter-spacing: 1px;
+    font-family: var(--primary-font);
+    font-weight: 600;
+}
+.qs-visit{
+    background-color: var(--primary-color);
+}
+.qs-bold{
+    font-size: 22px;
+    line-height: 26.4px;
+    text-align: center;
+    letter-spacing: normal;
+    color: #ffffff;
+    font-family: var(--primary-font);
+    font-weight: bold;
+}
+.qs-visitor{
+    font-size: 18px;
+    line-height: 21.6px;
+    text-align: center;
+    letter-spacing: normal;
+    color: #ffffff;
+    font-family: var(--primary-font);
+}
+.qs-visitor i a{
+    font-size: 18px;
+    line-height: 21.6px;
+    text-align: center;
+    letter-spacing: normal;
+    color: #ffffff;
+    font-family: var(--primary-font);
+    font-weight: bold;
+}
+/* *********************************************************
+*********************************************************
+
+           CEO's MESSAGE
+
+*********************************************************
+********************************************************* */
+
+.ceo-hd{
+    text-align: center;
+    background: url(ceo-message/page-title-about-1.jpg) no-repeat center;
+    background-size: cover;
+}
+.ceo-hd-txt{
+    font-size: 65px;
+    line-height: 78px;
+    text-align: center;
+    color: #ffffff;
+    font-family: var(--primary-font);
+    font-weight: bold;
+}
+.ceo-salam{
+    font-size: 40px;
+    line-height: 48px;
+    text-align: left;
+    color: #ffffff;
+    font-family: var(--primary-font);
+    font-weight: bold;
+}
+.ceo-msg{
+    background: url(ceo-message/box-2.jpg) no-repeat center;
+    background-size: cover;
+}
+.ceo-txt{
+    font-size: 15px;
+    line-height: 25.5px;
+    text-align: left;
+    color: #ffffff;
+    font-family: var(--primary-font);
+}
+.ceo-pic img{
+    width: 100%;
+    height: 100%;
+}
+.chrmn{
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+/* *********************************************************
+*********************************************************
+
+           MEDICAL SPECIALITIES
+
+*********************************************************
+********************************************************* */
+.mdcl-hd-txt{
+    font-size: 41px;
+    line-height: 49.2px;
+    text-align: left;
+    color: #1c4ca5;
+    font-family: var(--primary-font);
+    font-weight: bold;
+}
+.mdcl-txt{
+    font-size: 16px;
+    line-height: 27.2px;
+    text-align: left;
+    color: #555555;
+    font-family: var(--primary-font);
+}
+.ceo-hd-txt-m{
+    font-size: 47px;
+    line-height: 56.4px;
+    text-align: center;
+    color: #ffffff;
+    font-family: var(--primary-font);
+    font-weight: bold;
+}
+
+
+@media screen and (max-width:767px) {
+    .mdcl-hd-txt{
+        font-size: 34px;
+    line-height: 37.2px;
+    }
+}
+@media screen and (max-width:618px) {
+    .mdcl-hd-txt{
+        font-size: 30px;
+    }
+}
+.frty{
+    font-size: 60px;
+    line-height: 102px;
+    text-align: left;
+    color: #17449e;
+    font-family: var(--primary-font);
+    font-weight: bold;
+}
+.frty-txt{
+    font-size: 30px;
+    line-height: 51px;
+    text-align: left;
+    color: #4e4e4e;
+    font-family: var(--primary-font);
+    font-weight: bold;
+}
+.spclist-txt-hd{
+    font-size: 44px;
+    line-height: 49px;
+    text-align: center;
+    color: #ffffff;
+    font-family: var(--primary-font);
+    font-weight: 700;
+}
+.spclist-txt{
+    font-size: 26px;
+    line-height: 47.6px;
+    text-align: center;
+    color: #ffffff;
+    font-family: var(--primary-font);
+    font-weight: 600;
+}
+.spclist-desc{
+    font-size: 17px;
+    line-height: 24px;
+    text-align: center;
+    color: #fff;
+    font-family: var(--primary-font);
+    font-weight: 500;
+}
+.spclist-btn{
+    text-transform: uppercase;
+    color: #17449e;
+    font-size: 13px;
+    line-height: 22.1px;
+    font-family: var(--primary-font);
+    font-weight: bold;
+    border: none;
+    border-radius: 18px;
+    letter-spacing: 0.8px;
+}
+
+@media screen and (max-width:767px) {
+    .spclist-txt-hd{
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .spclist-txt{
+        font-size: 23px;
+        line-height: 40.6px;
+        text-align: center;
+        color: #ffffff;
+        font-family: var(--primary-font);
+        font-weight: 600;
+    }
+    .spclist-desc{
+        font-size: 16px;
+        line-height: 21px;
+        text-align: center;
+        color: #fff;
+        font-family: var(--primary-font);
+        font-weight: 500;
+    }
+}
+
+/* *********************************************************
+*********************************************************
+
+           RESPONSIVENESS
+
+*********************************************************
+********************************************************* */
+
+@media screen and (max-width:991px) {
+    .top-container-cstm{
+        display: none;
+    }
+    .srch-icon{
+        display: block;
+    }
+    .health-head{
+        font-family: var(--primary-font);
+        font-size: 26px;
+        line-height: 31.2px;
+        color: #1c4ca5;
+        font-weight: bold;
+    }
+    .health-desc{
+        font-size: 18px;
+        line-height: 27.9px;
+        color: #1c4ca5;
+        font-family: var(--primary-font);
+        font-weight: 550;
+    }
+    .health-txt{
+        font-size: 14px;
+        line-height: 23.8px;
+        color: #555555;
+        font-family: var(--primary-font);
+    }
+    .head-txt{
+        font-size: 26px;
+        line-height: 31.2px;
+    }
+    .desc-txt{
+        font-size: 13px;
+        line-height: 22.1px;
+    }
+    .about-dhmc-txt{
+        font-size: 14px;
+        line-height: 23.8px;
+    }
+    .about-dhmc-img img{
+        width: 100px;
+        height: auto;
+    }
+}
+@media screen and (max-width:930px) {
+    .about-dhmc-img img{
+        width: 90px;
+        height: auto;
+    }
+}
+@media screen and (max-width:830px) {
+    .about-dhmc-img img{
+        width: 80px;
+        height: auto;
+    }
+}
+@media screen and (min-width:1200px) {
+   .top-text-cstm{
+    font-size: 16px;
+   }
+}
+@media screen and (max-width:1041px) {
+    .nav-item a,
+.nav-item .dropdown button{
+    font-size: 13px;}
+}
+@media screen and (max-width:767px) {
+    .navBar .navbar .logo-img-cstm img {
+        width: 9rem;
+        height: auto;
+    }
+    .dr-desc{
+        margin-bottom: 30px !important;
+    }
+    .copyrit{
+        font-size: 11px;
+        line-height: 18.7px;
+        text-align: left;
+    }
+}
+@media screen and (max-width:768px) {
+    .emergency-srvcs-txt{
+        color: #abcbff;
+        font-size: 14px;
+        line-height: 23.8px;
+        font-family: "Montserrat", sans-serif;
+    }
+}
+@media screen and (min-width:767px) {
+    .dctr-img{
+        height: 540px;
+        width: auto;
+    }  
+}
+@media screen and (max-width:767px) {
+    .dctr-img{
+        width: 100%;
+        height: auto;
+    } 
+    .about-dhmc-img img{
+        width: auto;
+        height: auto;
+    } 
+    .locat-img{
+        order: 1;
+    }
+    .locat-txt{
+        order: 2;
+        margin-top: 0;
+        padding-top: 0;
+    }
+    .locat-sctn{
+        margin-left: 0;
+    }
+}
+@media screen and (max-width:530px) {
+    .about-dhmc-img img{
+        width: 80px;
+        height: auto;
+    }
+}
+@media screen and (max-width:576px){
+    .about-DHMC{
+        padding-top: 2.5rem;
+    }
+}
+@media screen and (max-width:420px) {
+    .about-dhmc-img img{
+        width: 65px;
+        height: auto;
+    }
+}
+

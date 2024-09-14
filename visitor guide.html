@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Visitor Guide--Doctors Hospital</title>
+    <link
+      rel="shortcut icon"
+      href="images/logo-tital.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="http:/site-assets.fontawesome.com/releases/v6.4.2/css/all.css"
+    />
+    <script src="bootstrap.bundle.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div
+        class="container-fluid ms-0 m-4 shadow px-5 py-3 mb-3 bg-body top-container-cstm"
+      >
+        <div class="row">
+          <div class="col-lg-8 col-md-12 top-info">
+            <div>
+              <a
+                href="#"
+                class="text-decoration-none top-text-cstm px-3 ps-0 btn-srch"
+                ><i class="fa-light fa-clock cstm-icn me-1"></i>&nbsp; Hospital
+                Timing 24 X 7</a
+              >
+            </div>
+            <div>
+              <a
+                href="#"
+                class="text-decoration-none top-text-cstm px-3 btn-srch"
+                ><i class="fa-light fa-phone cstm-icn me-1"></i>&nbsp; 042 111
+                223 377</a
+              >
+            </div>
+            <div>
+              <a
+                href="#"
+                class="text-decoration-none top-text-cstm px-3 btn-srch"
+                ><i class="fa-light fa-envelope cstm-icn me-1"></i>&nbsp;
+                info@dhmc.com.pk</a
+              >
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12 d-flex justify-content-end">
+            <a href="#" class="text-decoration-none top-text-cstm btn-srch">
+              <button class="cstm-btn px-3 py-2 me-3" type="button">
+                Book your Appointment
+              </button></a
+            >
+            &nbsp;
+            <i
+              class="fa-light fa-magnifying-glass srch-cstm ps-1 pb-0 mb-0"
+            ></i>
+          </div>
+        </div>
+      </div>
+      <div class="srch-icon">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+      <div class="navBar pt-md-3 mx-md-0 mx-sm-0 px-md-0 px-sm-0">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container-fluid m-4 mt-0 pt-0 logo-img-cstm">
+            <img src="images/logo.png" alt="" class="img-fluid col-md-3" />
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-5">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="index.html"
+                    style="color: #8098c9"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <div class="dropdown">
+                    <button
+                      class="dropdown-toggle p-2 nav-drop-cstm"
+                      type="button"
+                      id="dropdownMenuButton1"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      About Us
+                    </button>
+                    <ul
+                      class="dropdown-menu bg-light dropdown-menu-cstm"
+                      aria-labelledby="dropdownMenuButton1"
+                    >
+                      <li>
+                        <a class="dropdown-item py-2 ps-4 pe-5" href="#"
+                          >Who are We</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item py-2 ps-4 pe-5" href="#"
+                          >Mission, Vision, Values</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item py-2 ps-4 pe-5"
+                          href="CEO's Message.html"
+                          >CEO Message</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item py-2 ps-4 pe-5"
+                          href="chairman-msg.html"
+                          >Chairman Message</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item py-2 ps-4 pe-5" href="#"
+                          >Executive Team</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item py-2 ps-4 pe-5" href="#"
+                          >DHMC Facilities</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item py-2 ps-4 pe-5" href="#"
+                          >Newsletter</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <div class="dropdown">
+                    <button
+                      class="dropdown-toggle p-2 nav-drop-cstm"
+                      type="button"
+                      id="dropdownMenuButton1"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Care & Services
+                    </button>
+                    <ul
+                      class="dropdown-menu bg-light dropdown-menu-cstm"
+                      aria-labelledby="dropdownMenuButton1"
+                    >
+                      <li>
+                        <a class="dropdown-item py-2 ps-4 pe-5" href="#"
+                          >Find a Doctor</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item py-2 ps-4 pe-5"
+                          href="medical Specialities.html"
+                          >Medical Specialities</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item py-2 ps-4 pe-5" href="#"
+                          >Surgical Specialities</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item py-2 ps-4 pe-5" href="#"
+                          >Diagnostics</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item py-2 ps-4 pe-5" href="#"
+                          >Hospital Services</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <div class="dropdown">
+                    <button
+                      class="dropdown-toggle p-2 nav-drop-cstm"
+                      type="button"
+                      id="dropdownMenuButton1"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Patients & Families
+                    </button>
+                    <ul
+                      class="dropdown-menu bg-light dropdown-menu-cstm"
+                      aria-labelledby="dropdownMenuButton1"
+                    >
+                      <li>
+                        <a class="dropdown-item py-2 ps-4 pe-5" href="#"
+                          >Patient Rights & Responsibilities</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item py-2 ps-4 pe-5"
+                          href="visitor guide.html"
+                          >Visitor Guide</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item py-2 ps-4 pe-5" href="#"
+                          >Registered Insurance Panels</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item py-2 ps-4 pe-5" href="#"
+                          >Patient Support</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item py-2 ps-4 pe-5" href="#"
+                          >Health & Wellness</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <div class="dropdown">
+                    <button
+                      class="dropdown-toggle p-2 nav-drop-cstm"
+                      type="button"
+                      id="dropdownMenuButton1"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Media Center
+                    </button>
+                    <ul
+                      class="dropdown-menu bg-light dropdown-menu-cstm"
+                      aria-labelledby="dropdownMenuButton1"
+                    >
+                      <li>
+                        <a class="dropdown-item py-2 ps-4 pe-5" href="#"
+                          >News and Events</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item py-2 ps-4 pe-5" href="#"
+                          >DHMC YouTube Channel</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Career.html">Careers</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <section>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 ceo-hd p-5">
+            <div class="career-txt py-5">Visitor Guide</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-xl">
+        <div class="row">
+          <div class="col-12">
+            <div class="visitor-hd mt-5">Patients & Families</div>
+            <div class="career-desc-txt-visitor pt-2">
+              For many patients, support from friends, family, and loved ones is
+              more than just appreciated, it is essential for providing the
+              encouragement needed to boost morale and promote healing.
+            </div>
+            <div class="career-desc-txt-visitor pt-2">
+              At Doctors Hospital, we believe that a balanced routine of visits
+              from loved ones under some guidelines and plenty of rest for the
+              patient allows for a better recovery. Our visitor guide is in
+              place to:
+              <ul class="pt-3">
+                <li>Promote family/ patient‐centered care.</li>
+                <li>Provide restful, non‐disruptive nursing care.</li>
+                <li>
+                  Reduce disease transmission by avoiding crowded situations and
+                  by asking ill visitors not to visit.
+                </li>
+                <li>Control appropriate access to the hospital</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-12">
+            <div class="visitor-hd-nxt">Visitor Policy</div>
+            <div class="career-desc-txt-visitor pt-2">
+              In-<b>Patient Rooms</b>, only one attendant and two visitors are
+              allowed to stay with the patient at a time.
+            </div>
+            <div class="career-desc-txt-visitor pt-2">
+              In the <b>Wards</b>, only one attendant/visitor is allowed to stay
+              with the patient at a time.
+              <ul class="pt-3">
+                <li>
+                  Visiting Policy for <b> ICU-3, ICU-6, and CCU</b> Department
+                  will be as follow:
+                </li>
+                <ul>
+                  <li>11:00 am to 11:15 am</li>
+                  <li>06:00 pm to 06:15 pm</li>
+                  <li>11:00 pm to 11:15 pm</li>
+                </ul>
+                <li>
+                  Only one person at a time shall be allowed to see the patients
+                </li>
+              </ul>
+              Our patients’ ability to protect themselves from germs and disease
+              is compromised. Exposure to additional illnesses may complicate
+              the healing process and place them at risk. If you are not feeling
+              well or have an illness that could be transferred to our patients,
+              please refrain from visiting. If you are not sure, please check
+              with your health care provider.
+            </div>
+          </div>
+
+          <div class="col-12">
+            <div class="visitor-hd-nxt">Mutual Respect</div>
+            <div class="career-desc-txt-visitor pt-2">
+              Doctors Hospital treats all patients and their attendants with
+              courtesy and respect. Our staff expects the same from patients and
+              their attendants. We understand that being in a hospital can
+              oftentimes bring about stress and frustration but rest assured
+              that our top priority is the well-being of all of our patients and
+              visitors.
+            </div>
+            <div class="career-desc-txt-visitor pt-2">
+              If there is any incidence of verbal or physical abuse of our staff
+              or violation of hospital rules, we reserve the right to transfer
+              the patient to some other facility and register a complaint with
+              police authorities.
+            </div>
+          </div>
+
+          <div class="col-12">
+            <div class="visitor-hd-nxt">Outside Food</div>
+            <div class="career-desc-txt-visitor pt-2">
+              Outside food is not allowed within the hospital. For admitted
+              patients, the hospital Cafeteria works closely with the Clinical
+              Nutrition Department to ensure that patients receive nutritious
+              food that aligns with their recovery objectives. Outside food can
+              compromise these recovery objectives.
+            </div>
+            <div class="career-desc-txt-visitor pt-2">
+              For visitors, the Cafeteria and Atrium Café offer a wide variety
+              of main course meals and snacks. At Doctors Hospital, we are
+              committed to providing a clean and sanitary environment for our
+              patients to recover. Outside food can often comprise the
+              cleanliness of the hospital.
+            </div>
+          </div>
+
+          <div class="col-12">
+            <div class="visitor-hd-nxt">Flowers</div>
+            <div class="career-desc-txt-visitor pt-2">
+              Flowers are not allowed in patient rooms as some patients have
+              allergies or breathing difficulties. If you wish to give your
+              loved ones something to let them know that you are thinking about
+              their wellbeing, we encourage you to consider a card over flowers.
+            </div>
+          </div>
+
+          <div class="col-12">
+            <div class="visitor-hd-nxt">Smoking Policy</div>
+            <div class="career-desc-txt-visitor pt-2">
+              Second-hand smoke is damaging to health and especially dangerous
+              for patients with respiratory or breathing difficulties. Smoking
+              is STRICTLY prohibited within the entire hospital as well as close
+              to our facility.
+            </div>
+          </div>
+
+          <div class="col-12">
+            <div class="visitor-hd-nxt">Children</div>
+            <div class="career-desc-txt-visitor pt-2">
+              Children 12 years and below are not allowed for their safety as
+              well as patient recovery reasons. Children are very susceptible to
+              hospital-acquired infection and therefore hospital visits by
+              children must be strictly restricted. Also as your attention may
+              be on your loved one at the hospital, you may not be able to
+              provide the necessary level of supervision that children often
+              require.
+            </div>
+            <div class="career-desc-txt-visitor pt-2">
+              Therefore, we encourage you to leave children 12 years and under
+              with a trusted adult while you are visiting your loved one at the
+              hospital. Requests for children to visit patients in certain
+              situations may be approved by the nurse or administrator on duty.
+            </div>
+          </div>
+
+          <div class="col-12">
+            <div class="visitor-hd-nxt">Additional Policies</div>
+            <div class="career-desc-txt-visitor pt-2">
+              All patients/attendants are directed to keep their valuables with
+              them at their responsibility. The hospital Administration will not
+              be responsible for any loss or damage.
+            </div>
+            <div class="career-desc-txt-visitor pt-2">
+              All patients/next of kin are directed to bring the original / copy
+              of their CNIC with them during their stay in the hospital.
+            </div>
+            <div class="career-desc-txt-visitor pt-2">
+              No outside furniture and bedding are allowed in the patient’s
+              room/wards.
+            </div>
+            <div class="career-desc-txt-visitor pt-2">
+              No use of still/video cameras is allowed within the hospital
+              premises.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid mb-3">
+        <div class="row">
+          <div class="py-5 col-12 qs-visit">
+            <div class="qs-bold py-1">
+              Have a question or concern regarding our visitor guide?
+            </div>
+            <div class="qs-visitor">
+                Please <i><a href="#">Click Here</a></i> if you have other questions.
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="footer">
+      <div style="display: block" class="pt-4 ps-4">
+        <img src="images/logo.png" alt="" style="width: 260px; height: auto" />
+      </div>
+      <div class="container-fluid mt-3">
+        <div class="row">
+          <div class="col-lg-3 col-md-12 col-sm-12">
+            <div class="footer-hd mb-4 mt-4">About Us</div>
+            <div class="footer-txt">
+              Founded in 2000, Doctors Hospital is an internationally renowned
+              250-bed hospital located in Lahore, Pakistan. For more than 18
+              years we have been fulfilling the medical needs of our community
+              with our staff of American & British Board Certified specialists.
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="footer-hd mb-4 mt-4">Our Services</div>
+            <div class="footer-txt">
+              <ul>
+                <li>Primary Care</li>
+                <li>Surgical Services</li>
+                <li>Women’s Health</li>
+                <li>Heart & Vascular Services</li>
+                <li>Gastrointestinal Health</li>
+                <li>Spine & Ortho</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="footer-hd mb-4 mt-4">Contact Us</div>
+            <div class="footer-txt">
+              To make an appointment at Doctors Hospital please use the contact
+              details given below.
+            </div>
+            <div class="footer-txt py-3">
+              <i class="fa-solid fa-phone scl-link"></i> 042 111 223 377
+
+              <div class="social-links">
+                <ul>
+                  <li>
+                    <a href="#"
+                      ><i class="fa-brands fa-facebook-f scl-link"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><i class="fa-brands fa-linkedin-in scl-link"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><i class="fa-brands fa-twitter scl-link"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><i class="fa-brands fa-instagram scl-link"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-12 col-sm-12">
+            <div class="footer-hd mb-4 mt-4">Quick Links</div>
+            <div class="footer-txt">
+              <ul>
+                <li>Visit Our Blog</li>
+                <li>COVID-19 Services</li>
+                <li>Diagnostics Lab</li>
+                <li>Newsletter</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-5 pt-4 mb-2 copyrit">
+        Copyright 2023 @Doctors Hospital Pakistan | Doctors Hospital Labs
+        Pakistan. All Rights Reserved
+      </div>
+    </footer>
+  </body>
+</html>
